@@ -1,0 +1,71 @@
+/**
+ * 
+ */
+package com.mystore.testcases;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.mystore.base.BaseClass;
+import com.mystore.pageobjects.CartPage;
+import com.mystore.pageobjects.HomePage;
+import com.mystore.pageobjects.IndexPage;
+import com.mystore.pageobjects.OrderconfirmationPage;
+import com.mystore.pageobjects.PaymentPage;
+import com.mystore.pageobjects.ProductDetailsPage;
+import com.mystore.pageobjects.SearchResultPage;
+import com.mystore.pageobjects.ShippingPage;
+
+/**
+ * @author user
+ *
+ */
+public class MultiplePageTests extends BaseClass{
+	IndexPage indexPage;
+	SearchResultPage searchResultPage;
+	ProductDetailsPage productDetailsPage;
+	CartPage cartPage;
+	ShippingPage shippingPage;
+	PaymentPage paymentPage;
+	OrderconfirmationPage orderConfirmationPage;
+	@Test
+	public void navigateToCartPage() throws InterruptedException {
+		HomePage homePage=login();
+		homePage.goToMyCart();
+		Thread.sleep(5000);
+		 System.out.println(driver.getTitle());
+	}
+	
+	@Test
+	public void placeOrderTest() throws InterruptedException {
+	HomePage homePage=login();
+	indexPage= new IndexPage();
+	searchResultPage=indexPage.searchProduct("Shirt");
+	productDetailsPage=searchResultPage.goToProduct();
+	productDetailsPage.addToCart();
+	Thread.sleep(5000);
+	cartPage= homePage.goToMyCart();
+	Thread.sleep(5000);
+	 System.out.println(driver.getTitle());
+	shippingPage = cartPage.checkOut();
+	Thread.sleep(5000);
+	//WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	//wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div.shipping-address-items")));
+	paymentPage=shippingPage.clickOnNext();
+	Thread.sleep(5000);
+	orderConfirmationPage=paymentPage.clickOnPlaceOrderButton();
+	
+	String orderConfirmarionMessage=orderConfirmationPage.getOrderConfirmationMessage();
+	Thread.sleep(5000);
+	System.out.println(orderConfirmarionMessage);
+	Assert.assertEquals(orderConfirmarionMessage, "Thank you for your purchase!");
+	
+	
+	 
+	}
+}

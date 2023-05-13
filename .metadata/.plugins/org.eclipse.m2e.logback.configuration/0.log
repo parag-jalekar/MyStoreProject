@@ -54,3 +54,61 @@
 2023-05-12 23:47:40,768 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2023-05-12 23:47:47,383 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-05-12 23:47:47,391 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-12 23:47:47,397 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-12 23:47:47,399 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 15:10:44,415 [Worker-27: Launching MultiplePageTests.placeOrderTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 15:10:44,559 [Worker-27: Launching MultiplePageTests.placeOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 15:10:44,569 [Worker-27: Launching MultiplePageTests.placeOrderTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 15:10:44,571 [Worker-27: Launching MultiplePageTests.placeOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 15:20:25,984 [Worker-27: Launching MultiplePageTests.placeOrderTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 15:20:26,004 [Worker-27: Launching MultiplePageTests.placeOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 15:20:26,007 [Worker-27: Launching MultiplePageTests.placeOrderTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 15:20:26,025 [Worker-27: Launching MultiplePageTests.placeOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 15:21:24,765 [Worker-27: Launching MultiplePageTests.placeOrderTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 15:21:24,768 [Worker-27: Launching MultiplePageTests.placeOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 15:21:24,770 [Worker-27: Launching MultiplePageTests.placeOrderTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 15:21:24,771 [Worker-27: Launching MultiplePageTests.placeOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 15:23:16,972 [Worker-34: Launching MultiplePageTests.placeOrderTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 15:23:16,974 [Worker-34: Launching MultiplePageTests.placeOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 15:23:16,977 [Worker-34: Launching MultiplePageTests.placeOrderTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 15:23:16,979 [Worker-34: Launching MultiplePageTests.placeOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 15:27:01,600 [Worker-20: Launching MultiplePageTests.navigateToCartPage] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 15:27:01,602 [Worker-20: Launching MultiplePageTests.navigateToCartPage] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 15:27:01,604 [Worker-20: Launching MultiplePageTests.navigateToCartPage] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 15:27:01,605 [Worker-20: Launching MultiplePageTests.navigateToCartPage] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 15:29:37,970 [Worker-20: Launching MultiplePageTests.placeOrderTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 15:29:37,972 [Worker-20: Launching MultiplePageTests.placeOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 15:29:37,975 [Worker-20: Launching MultiplePageTests.placeOrderTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 15:29:37,976 [Worker-20: Launching MultiplePageTests.placeOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 15:38:14,164 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 15:38:14,186 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 15:38:14,194 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 15:38:14,196 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 16:41:59,528 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 16:41:59,575 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 16:41:59,579 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 16:41:59,583 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 16:43:25,510 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 16:43:25,511 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 16:43:25,513 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 16:43:25,514 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 16:43:30,609 [Worker-52: Launching MultiplePageTests.placeOrderTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 16:43:30,611 [Worker-52: Launching MultiplePageTests.placeOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 16:43:30,613 [Worker-52: Launching MultiplePageTests.placeOrderTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 16:43:30,629 [Worker-52: Launching MultiplePageTests.placeOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 16:54:22,325 [Worker-54: Launching MultiplePageTests.placeOrderTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 16:54:22,338 [Worker-54: Launching MultiplePageTests.placeOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 16:54:22,344 [Worker-54: Launching MultiplePageTests.placeOrderTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 16:54:22,347 [Worker-54: Launching MultiplePageTests.placeOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 16:56:18,908 [Worker-59: Launching MultiplePageTests.placeOrderTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 16:56:18,920 [Worker-59: Launching MultiplePageTests.placeOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 16:56:18,924 [Worker-59: Launching MultiplePageTests.placeOrderTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 16:56:18,927 [Worker-59: Launching MultiplePageTests.placeOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 17:02:31,644 [Worker-62: Launching MultiplePageTests.placeOrderTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 17:02:31,726 [Worker-62: Launching MultiplePageTests.placeOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 17:02:31,730 [Worker-62: Launching MultiplePageTests.placeOrderTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 17:02:31,734 [Worker-62: Launching MultiplePageTests.placeOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 17:18:46,385 [Worker-68: Launching MultiplePageTests.placeOrderTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 17:18:46,391 [Worker-68: Launching MultiplePageTests.placeOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-13 17:18:46,396 [Worker-68: Launching MultiplePageTests.placeOrderTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-13 17:18:46,401 [Worker-68: Launching MultiplePageTests.placeOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

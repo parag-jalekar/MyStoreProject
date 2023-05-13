@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package com.mystore.testcases;
+
+import org.testng.annotations.Test;
+
+import com.mystore.base.BaseClass;
+import com.mystore.pageobjects.CartPage;
+import com.mystore.pageobjects.HomePage;
+import com.mystore.pageobjects.IndexPage;
+import com.mystore.pageobjects.ProductDetailsPage;
+import com.mystore.pageobjects.SearchResultPage;
+
+/**
+ * @author user
+ *
+ */
+public class MultiplePageTests extends BaseClass{
+	IndexPage indexPage;
+	SearchResultPage searchResultPage;
+	ProductDetailsPage productDetailsPage;
+	CartPage cartPage;
+	
+	@Test
+	public void placeOrderTest() {
+	HomePage homePage=login();
+	indexPage= new IndexPage();
+	searchResultPage=indexPage.searchProduct("Shirt");
+	productDetailsPage=searchResultPage.goToProduct();
+	productDetailsPage.addToCart();
+	cartPage= homePage.goToMyCart();
+	
+	}
+}
